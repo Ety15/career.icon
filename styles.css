@@ -1,0 +1,152 @@
+body {min-height: 100vh;
+    background-image: linear-gradient(rgb(184, 231, 250), rgb(230, 230, 250));
+} 
+header {
+    background-color: rgb(240, 246, 250);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px;
+    unicode-bidi: isolate;
+    box-sizing: border-box;
+    padding: 15px 30px;
+}
+.logo span {
+    color: rgb(247, 181, 54);
+    font-weight: 900;
+}
+button {
+    color: rgb(34, 34, 34);
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: rgba(247, 181, 54, 0.4) 0px 4px 8px;
+    background: linear-gradient(90deg, rgb(247, 181, 54) 0%, rgb(250, 185, 62) 100%);
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    padding: 10px 25px;
+    border-radius: 8px;
+    transition: background 0.3s;
+}
+
+.container {
+    max-width: 900px;
+    background-color: rgb(230, 236, 251);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 15px;
+    text-align: center;
+    margin: 40px auto;
+    padding: 40px 30px;
+    border-radius: 12px;
+}
+.why-web-dev {
+    max-width: 900px;
+    margin: 40px auto;
+    background: linear-gradient(90deg, #c8ddff, #c3dbff);
+    padding: 40px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+section {
+    display: block;
+    unicode-bidi: isolate;
+}
+.why-web-dev p {
+    font-size: 0.95rem;
+    color: #555a6c;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+.info-section {
+    max-width: 900px;
+    margin: 40px auto;
+    background-color: #e6ecfb;
+    border-radius: 15px;
+    padding: 30px 40px;
+    display: flex
+;
+    align-items: center;
+    gap: 40px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+.inspiration-section {
+    max-width: 900px;
+    margin: 40px auto;
+    background-color: #d5e7ff;
+    padding: 30px 25px;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.inspiration-section h3 {
+    font-weight: 700;
+    font-size: 1.4rem;
+    margin-bottom: 12px;
+    color: #222;
+}
+.inspiration-section p {
+    font-size: 0.9rem;
+    color: #555a6c;
+    max-width: 700px;
+    margin: 0 auto 25px auto;
+    line-height: 1.4;
+}
+.current-target {
+    max-width: 1000px;
+    margin: 40px auto;
+    background: linear-gradient(180deg, #cce7ff 0%, #a9d6ff 100%);
+    padding: 40px 25px;
+    border-radius: 15px;
+    text-align: center;
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    flex-wrap: wrap;
+}
+.card {
+    background: linear-gradient(180deg, #e6f1ff 0%, #a9d6ff 100%);
+    width: 180px;
+    padding: 25px 20px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+}
+/* Footer Styling */
+footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+}
+
+footer .container-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+
+
